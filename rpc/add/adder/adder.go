@@ -7,6 +7,7 @@ package adder
 
 import (
 	"context"
+	"fmt"
 
 	"bookstore/rpc/add/add"
 
@@ -27,6 +28,7 @@ type (
 )
 
 func NewAdder(cli zrpc.Client) Adder {
+	fmt.Printf("3----33333333333333333333\n")
 	return &defaultAdder{
 		cli: cli,
 	}

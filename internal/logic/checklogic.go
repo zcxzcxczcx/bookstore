@@ -6,6 +6,8 @@ import (
 	"bookstore/internal/svc"
 	"bookstore/internal/types"
 
+	"bookstore/rpc/check/checker"
+
 	"github.com/tal-tech/go-zero/core/logx"
 )
 
